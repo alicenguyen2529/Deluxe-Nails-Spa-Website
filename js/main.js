@@ -204,7 +204,7 @@
         language: 'en',
         callback: mailChimpResponse,
         // ADD YOUR MAILCHIMP URL BELOW HERE!
-        url: 'http://themeshaven.us8.list-manage.com/subscribe/post?u=759ce8a8f4f1037e021ba2922&amp;id=a2452237f8'
+        url: 'none'
     });
     
     function mailChimpResponse(resp) {
@@ -289,9 +289,9 @@ function myNavFunc() {
     // If it's an iPhone..
     var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     if (iOS) {
-        window.open("http://maps.google.com/?q=Golden+Nail+Lounge+21315+TX-130+%23120,+Pflugerville,+TX+78660");
+        window.open("https://www.google.com/maps/place/Deluxe+Nail+%26+Spa/@32.8645096,-96.8403046,17z/data=!3m2!4b1!5s0x864e9dded3f3b603:0x73005a999faea0d8!4m5!3m4!1s0x864e9dded134b5c1:0xb7dfe938f66ed511!8m2!3d32.8645096!4d-96.8381159");
     }
     else {
-        window.open("http://maps.google.com/?q=Golden+Nail+Lounge+21315+TX-130+%23120,+Pflugerville,+TX+78660");
+        window.open("https://www.google.com/maps/place/Deluxe+Nail+%26+Spa/@32.8645096,-96.8403046,17z/data=!3m2!4b1!5s0x864e9dded3f3b603:0x73005a999faea0d8!4m5!3m4!1s0x864e9dded134b5c1:0xb7dfe938f66ed511!8m2!3d32.8645096!4d-96.8381159");
     }
 }

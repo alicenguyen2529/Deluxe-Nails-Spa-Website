@@ -1,0 +1,298 @@
+
+/*SignUp New*/
+.wrapperdeal
+{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+#back_signupdeal
+{
+    width:100%;
+    height:auto;
+    margin-bottom:20px;
+    display:none;  
+}
+#box_signup
+{
+    width:100%;
+    max-width:650px;
+    height:auto;
+    overflow:hidden;    
+    margin:auto;
+    padding-bottom:20px;
+}
+#banner_signup
+{
+    width:650px;
+    margin:0px auto;
+    text-align:center;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+#banner_signup img
+{
+    width:100%;
+}
+#bg_banner
+{
+    width:100%;
+    height:auto;
+    border-bottom:1px solid #888;
+    padding-bottom:20px;    
+}
+#title_signup
+{
+    text-align:center;
+    font-size:25pt;
+    font-weight:bold;    
+    color:#fff;
+    text-transform:uppercase;
+    line-height:30px;
+}
+#box_restrictions
+{
+    width:100%;
+    height:auto;
+    text-align:left;   
+    font-size: 16pt;
+    line-height: 30px;
+    margin-top:10px;
+    color:#fff;
+}
+#restrictions
+{
+    color:#fff; 
+    font-size: 16pt;  
+}
+#box_expired
+{
+    width:100%;
+    height:auto;
+    text-align:left;   
+    font-size: 16pt;
+    line-height: 30px;
+    margin-top:10px;
+    color:#fff;
+}
+#expired
+{
+    color:#fff;  
+    font-size: 16pt;    
+}
+#box_serial
+{
+    width:100%;
+    height:auto;
+    text-align:left;   
+    font-size: 16pt;
+    line-height: 30px;
+    color:#4099d3;
+    margin-top:10px;
+}
+#serial
+{
+    color:#fff;   
+}
+#box_serial b
+{
+     color:#fff;   
+}
+.signdeal
+{
+    width:100%;
+    max-width:648px;
+    overflow:hidden;
+    margin:0px auto;
+    color:#fff;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 1px #999;
+    padding:40px;
+    background:#fff;
+}
+#bSubmit
+{
+    width: 100%;
+    max-width: 100px;
+    background: #b67627;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px auto;
+    height: 35px;
+    line-height: 35px;
+}
+#bSubmit:hover
+{
+    opacity:0.8;
+}
+#formsigndeal
+{
+    margin-top:0px;
+}
+.formrowtopdeal
+{
+	color:#000;
+    margin-bottom:5px;
+    text-align:left;
+    font-weight: bold;
+    font-family: Arial;
+}
+.formrowdeal
+{
+	margin-bottom: 10px;
+}
+.txtboxsigndeal
+{
+    width:99%;
+    border: 1px solid #ccc;
+    height: 30px;
+}
+.buttonrowdeal
+{
+	text-align: center;
+}
+#loadspinner
+{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0px;
+    padding-top:250px;
+    left:0px;
+    overflow:hidden;
+    display:none;
+    z-index:999999999999999999;
+    background:rgba(0,0,0,0.5);
+}
+#img_loader
+{
+    width:28px;
+    height:28px;
+    margin:0px auto;
+}
+#img_loader img
+{
+    width:28px;
+    height:28px;
+}
+.row_title_top
+{
+    width:100%;
+    height:auto;
+    text-align:left;   
+    font-size: 16pt;
+    line-height: 30px;
+    margin-top:10px;
+    color:#fff;
+}
+#row_title
+{
+    margin-bottom:20px;    
+    color:#fff;
+}
+#formnotifysignup
+{
+	width: 98%;
+	max-width: 400px;
+	min-height: 160px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	margin-left: -200px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 2px 2px 5px #666;
+	z-index: 99999;
+	display: none;
+}
+#formnotifycontentsignup
+{
+	font-size: 15pt;
+	color: #666;
+	margin-top: 30px;
+}
+#formnotifyoksignup
+{
+	margin: 0px auto;
+	margin-top: 20px;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	color: #fff;
+	background: #df811e;
+	cursor: pointer;
+}
+#formnotifyoksignup:hover,
+{
+	background: #be3024;
+}
+/*SignUp New*/
+
+
+
+
+
+@media screen and (max-width: 700px) 
+{
+    #box_signup
+    {
+        width:96%;    
+    }
+    #banner_signup
+    {
+        width:96%;    
+    }
+    .signdeal
+    {
+        width:96%;
+        max-width:400px;
+        padding:20px;
+    }
+    #box_restrictions 
+    {
+        font-size: 14pt;
+        line-height: 25px;
+    }
+    .row_title_top 
+    {
+        font-size: 14pt;
+        line-height: 25px;
+    }
+    #box_serial 
+    {
+        font-size: 14pt;
+        line-height: 25px;
+    }
+}
+
+
+@media screen and (max-width: 500px) 
+{
+    .signdeal
+    {
+        width:96%;
+        max-width:310px;
+        padding:20px;
+    }
+}
+
+
+@media screen and (max-width: 400px) 
+{
+    .signdeal
+    {
+        width:96%;
+        max-width:230px;
+        padding:20px;
+    }
+}
+
