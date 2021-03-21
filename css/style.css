@@ -148,6 +148,11 @@ body
     width:83%;
     margin:0px auto;
 }
+.container3
+{
+    width:83%;
+    margin:0px auto;
+}
 .container_box
 {
     margin-bottom:50px;
@@ -1739,6 +1744,12 @@ td.pink{background: #FF91B8}
     {
         width: 95%; 
         margin: opx auto;   
+    }
+
+    .container3
+    {
+        width: 50%; 
+        margin: opx auto;  
     }
 }
 @media screen and (max-width: 1000px)
